@@ -135,20 +135,24 @@ print(phone)
 
 print(phonebook)
 
+#phone1 = phonebook.clear()
+#print(phonebook)
 
 
 print()
 print('*****  end section 6 ********')
 print()
 
-'''
+
 
 print()
 print('*****  start section 7 - using pop method ********')
 print()
 
+phone = phonebook.pop("Chris", "Key not found")
+print(phone) 
 
-
+print(phonebook)
 
 
 
@@ -163,8 +167,10 @@ print('*****  start section 8 - using popitem ********')
 print()
 
 
+phone = phonebook.popitem("Chris", "Key not found")
+print (phone)
 
-
+print(phonebook)
 
 
 print()
@@ -184,10 +190,6 @@ print()
 print()
 print('*****  end section 9 ********')
 print()
-
-
-'''
-
 
 
 
