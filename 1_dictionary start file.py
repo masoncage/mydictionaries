@@ -167,7 +167,7 @@ print('*****  start section 8 - using popitem ********')
 print()
 
 
-phone = phonebook.popitem("Chris", "Key not found")
+phone = phonebook.popitem()
 print (phone)
 
 print(phonebook)
@@ -183,7 +183,8 @@ print()
 print('*****  start section 9 - using random and converting to list ********')
 print()
 
-
+random_value = phonebook[random.choice(list(phonebook))]
+print(random_value)
 
 
 
